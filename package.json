@@ -1,0 +1,28 @@
+{
+  "name": "qb-replace-tracker",
+  "version": "1.0.0",
+  "description": "Bulk replace torrents tracker with qbittorrent web api.",
+  "main": "index.js",
+  "bin": {
+    "qb-replace-tracker": "bin.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yiliashaw",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "enquirer": "^2.3.6",
+    "qbittorrent-api-v2": "^1.2.2",
+    "semver": "^7.3.7"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yiliashaw/qb-replace-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yiliashaw/qb-replace-tracker/issues"
+  },
+  "homepage": "https://github.com/yiliashaw/qb-replace-tracker#readme"
+}
